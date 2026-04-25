@@ -20,16 +20,16 @@ window.onload = function() {
         var campo = document.getElementById(id);
         campo.onfocus = function() {
             if (campo.validity.valid && campo.value !== "") {
-                campo.style.backgroundImage = "url(../imgs/valid.png)";
+                campo.style.backgroundImage = "url(valid.png)";
             } else {
-                campo.style.backgroundImage = "url(../imgs/invalid.png)";
+                campo.style.backgroundImage = "url(invalid.png)";
             }
         };
         campo.onblur = function() {
             if (campo.validity.valid && campo.value !== "") {
-                campo.style.backgroundImage = "url(../imgs/valid.png)";
+                campo.style.backgroundImage = "url(valid.png)";
             } else {
-                campo.style.backgroundImage = "url(../imgs/required.png)";
+                campo.style.backgroundImage = "url(required.png)";
             }
         };
     });
