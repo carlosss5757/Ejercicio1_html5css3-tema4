@@ -7,13 +7,13 @@
 @font-face 
 {
     font-family: 'LeagueGothic';
-    src: url('../../fonts/League_Gothic-webfont.ttf') format('truetype');
+    src: url('League_Gothic-webfont.ttf') format('truetype');
 }
 
 @font-face 
 {
     font-family: 'Acknowledgement';
-    src: url('../../fonts/Acknowledgement-webfont.ttf') format('truetype');
+    src: url('Acknowledgement-webfont.ttf') format('truetype');
 }
 
 input 
@@ -47,7 +47,7 @@ form
 	width: 710px;
 	text-align: center;
 	padding: 20px;
-	background: rgba(0,0,0,0.2) url(../imgs/bg-form.png) no-repeat bottom center;
+	background: rgba(0,0,0,0.2) url(bg-form.png) no-repeat bottom center;
 
 	font-family: 'Tires', sans-serif;
 }
@@ -57,8 +57,8 @@ form h1
 	font-size: 2em;
 	padding-bottom: 20px;
 	background:
-	url(../../imgs-registro/bg-formtitle-left.png) left 13px no-repeat,
-	url(../../imgs-registro/bg-formtitle-right.png) right 13px no-repeat;
+	url(bg-formtitle-left.png) left 13px no-repeat,
+	url(bg-formtitle-right.png) right 13px no-repeat;
 	-webkit-background-size: 100px auto;
 	-moz-background-size: 100px auto;
 	background-size: 100px auto;
@@ -140,7 +140,7 @@ label[for=cantidad], #cantidad
 
 #nombre 
 {
-	background-image: url(../../imgs-registro/valid.png);
+	background-image: url(valid.png);
 	background-repeat: no-repeat;
 	background-position: right 10px center;
 	padding-right: 35px;
@@ -148,7 +148,7 @@ label[for=cantidad], #cantidad
 
 #email 
 {
-	background-image: url(../../imgs-registro/required.png);
+	background-image: url(required.png);
 	background-repeat: no-repeat;
 	background-position: right 10px center;
 	padding-right: 35px;
@@ -156,7 +156,7 @@ label[for=cantidad], #cantidad
 
 #password1, #password2 
 {
-	background-image: url(../../imgs-registro/required.png);
+	background-image: url(required.png);
 	background-repeat: no-repeat;
 	background-position: right 10px center;
 	padding-right: 35px;
@@ -164,7 +164,7 @@ label[for=cantidad], #cantidad
 
 #fechaInicio 
 {
-	background-image: url(../../imgs-registro/required.png);
+	background-image: url(required.png);
 	background-repeat: no-repeat;
 	background-position: right 10px center;
 	padding-right: 35px;
