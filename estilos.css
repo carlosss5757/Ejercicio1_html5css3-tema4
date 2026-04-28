@@ -97,7 +97,7 @@ form h1
 	padding-bottom: 20px;
 }
 
-input[type=submit], button
+input[type=button], button
 {
 	border: none;
 	-moz-border-radius: 5px;
@@ -123,7 +123,7 @@ input[type=submit], button
 	-moz-transition: opacity .25s linear;
 }
 
-input[type=submit]:hover 
+input[type=button]:hover 
 {
   opacity: 1;
 }	
